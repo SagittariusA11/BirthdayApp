@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\manas\\StudioProjects\\BirthdayApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Manash\\Clubs\\COPS\\BirthdayApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\manas\\.gradle\\caches\\transforms-3\\6f1a5473015089bd0e4bba8540b9c236\\transformed\\appcompat-1.4.2\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\manas\\StudioProjects\\BirthdayApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\Manash\\Clubs\\COPS\\BirthdayApp\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -30,27 +30,27 @@ class MainActivity : AppCompatActivity() {
         recv.adapter = userAdapter
         addsBtn.setOnClickListener { addInfo() }
 
-        val editText = findViewById<EditText>(R.id.edittext)
-        editText.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
-            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
-            override fun afterTextChanged(s: Editable) {
-                filter(s.toString())
-            }
-        })
+//        val editText = findViewById<EditText>(R.id.edittext)
+//        editText.addTextChangedListener(object : TextWatcher {
+//            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+//            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+//            override fun afterTextChanged(s: Editable) {
+//                filter(s.toString())
+//            }
+//        })
 
 
     }
 
-    private fun filter(text: String) {
-        val filteredList: ArrayList<UserAdapter> = ArrayList()
-        for (item in UserAdapter.UserViewHolder.name) {
-            if (item.getText1().toLowerCase().contains(text.toLowerCase())) {
-                filteredList.add(item)
-            }
-        }
-        UserAdapter.filterList(filteredList)
-    }
+//    private fun filter(text: String) {
+//        val filteredList: ArrayList<UserAdapter> = ArrayList()
+//        for (item in UserAdapter.UserViewHolder.name) {
+//            if (item.getText1().toLowerCase().contains(text.toLowerCase())) {
+//                filteredList.add(item)
+//            }
+//        }
+//        UserAdapter.filterList(filteredList)
+//    }
 
     private fun addInfo() {
         val inflter = LayoutInflater.from(this)
